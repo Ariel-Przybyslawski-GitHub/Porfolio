@@ -1,3 +1,4 @@
+/*reset CSS */
 .container-fluid,
 .container,
 .row,
@@ -6,4 +7,18 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* NAVBAR */
+:root {
+    --fontColor: white;
+}
+
+.navbar-brand {
+    color: var(--fontColor);
+}
+
+.nav-link {
+    color: var(--fontColor);
+
 }
